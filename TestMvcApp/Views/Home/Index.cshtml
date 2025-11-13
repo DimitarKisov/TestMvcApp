@@ -1,8 +1,377 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Начало";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="modern-hero">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <!-- Hero Content -->
+                <div class="hero-content text-center mb-5">
+                    <div class="badge-pill mb-4">
+                        <span class="modern-badge">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="me-2">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                            </svg>
+                            Тестово Приложение
+                        </span>
+                    </div>
+
+                    <h1 class="hero-title mb-4">
+                        Добре дошли в <br/>
+                        <span class="gradient-text">Test MVC App - GitHub Workflow</span>
+                    </h1>
+
+                    <p class="hero-subtitle mb-5">
+                        Модерно ASP.NET Core MVC приложение, създадено за демонстрационни цели.<br/>
+                        Повече функционалност и възможности ще бъдат добавени скоро.
+                    </p>
+                </div>
+
+                <!-- Feature Cards -->
+                <div class="row g-4 mb-5">
+                    <div class="col-md-4">
+                        <div class="glass-card">
+                            <div class="icon-wrapper purple">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">ASP.NET Core</h3>
+                            <p class="card-description">Построено с най-новата технология от Microsoft</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="glass-card">
+                            <div class="icon-wrapper blue">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">В Разработка</h3>
+                            <p class="card-description">Активно работим по нови функции и подобрения</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="glass-card">
+                            <div class="icon-wrapper pink">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Очаквайте Скоро</h3>
+                            <p class="card-description">Повече информация и функции в близко бъдеще</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info Banner -->
+                <div class="info-banner">
+                    <div class="info-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="info-title">Демонстрационна Версия</div>
+                        <div class="info-text">Това е тестово приложение. Пълната функционалност ще бъде достъпна в следващите версии.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
 </div>
+
+<style>
+    /* Modern Hero Section */
+    .modern-hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .modern-hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:
+            radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+            radial-gradient(circle at 80% 80%, rgba(252, 70, 107, 0.3) 0%, transparent 50%),
+            radial-gradient(circle at 40% 20%, rgba(99, 102, 241, 0.3) 0%, transparent 50%);
+        animation: gradientShift 15s ease infinite;
+    }
+
+    @@keyframes gradientShift {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.8; }
+    }
+
+    /* Animated Background Shapes */
+    .bg-shapes {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .shape {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(60px);
+        opacity: 0.4;
+        animation: float 20s ease-in-out infinite;
+    }
+
+    .shape-1 {
+        width: 400px;
+        height: 400px;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        top: 10%;
+        left: 10%;
+        animation-delay: 0s;
+    }
+
+    .shape-2 {
+        width: 300px;
+        height: 300px;
+        background: linear-gradient(135deg, #f093fb, #f5576c);
+        bottom: 20%;
+        right: 10%;
+        animation-delay: 5s;
+    }
+
+    .shape-3 {
+        width: 350px;
+        height: 350px;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        top: 50%;
+        right: 30%;
+        animation-delay: 10s;
+    }
+
+    @@keyframes float {
+        0%, 100% {
+            transform: translate(0, 0) scale(1);
+        }
+        33% {
+            transform: translate(50px, -50px) scale(1.1);
+        }
+        66% {
+            transform: translate(-30px, 30px) scale(0.9);
+        }
+    }
+
+    /* Hero Content */
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        animation: fadeInUp 1s ease-out;
+    }
+
+    .modern-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 24px;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50px;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+        font-weight: 800;
+        color: white;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+    }
+
+    .gradient-text {
+        background: linear-gradient(135deg, #ffffff 0%, #e0e7ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        display: inline-block;
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1.8;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    /* Glass Cards */
+    .glass-card {
+        position: relative;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 24px;
+        padding: 32px;
+        text-align: center;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+
+    .glass-card:hover {
+        transform: translateY(-12px);
+        background: rgba(255, 255, 255, 0.15);
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+        border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .icon-wrapper {
+        width: 72px;
+        height: 72px;
+        border-radius: 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .icon-wrapper::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+
+    .icon-wrapper svg {
+        position: relative;
+        z-index: 1;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    }
+
+    .icon-wrapper.purple {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+
+    .icon-wrapper.blue {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        color: white;
+    }
+
+    .icon-wrapper.pink {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        color: white;
+    }
+
+    .card-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 12px;
+    }
+
+    .card-description {
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 1.6;
+        margin: 0;
+    }
+
+    /* Info Banner */
+    .info-banner {
+        position: relative;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 24px 32px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-icon {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        flex-shrink: 0;
+    }
+
+    .info-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 4px;
+    }
+
+    .info-text {
+        font-size: 0.95rem;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 1.5;
+    }
+
+    /* Animations */
+    @@keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Responsive */
+    @@media (max-width: 768px) {
+        .hero-title {
+            font-size: 2.5rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1rem;
+        }
+
+        .glass-card {
+            padding: 24px;
+        }
+
+        .shape {
+            width: 200px !important;
+            height: 200px !important;
+        }
+    }
+</style>

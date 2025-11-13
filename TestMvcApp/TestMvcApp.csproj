@@ -4,10 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/7d2df744-a15d-4192-82e1-0741cf59b999/resourcegroups/AccessControlSystem-Dev_group/providers/microsoft.insights/components/TestMvcApp</ApplicationInsightsResourceId>
+    <UserSecretsId>7892a4a9-160d-4619-9da6-7a48adc3b188</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
   </ItemGroup>
 
 </Project>
